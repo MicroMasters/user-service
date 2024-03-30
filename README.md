@@ -1,56 +1,69 @@
 # User Microservice Project
 
-Welcome to the **user-service** repository! This project is a microservice designed to manage user roles and access permissions within an application. It provides functionality for managing users with different roles including guest, buyer, supplier, and admin. Users are authenticated using JSON Web Tokens (JWT) for secure access to the application's APIs.
+Welcome to the User Microservice project! This project is built using the Go programming language and is designed to manage user roles and access through APIs. It utilizes JWT token authentication for validating users and MongoDB for database management, along with Redis for caching authentication and session management.
 
-## Technologies Used
+## Roles
 
-- **Programming Language**: Go (Golang)
-- **Database Management**:
-  - MongoDB for storing user data
-  - Redis for caching, authentication, and session management
+The User Microservice project supports the following user roles:
 
-## Features
+1. **Guest**: Users who are not logged in or authenticated.
+2. **Buyer**: Users who have registered as buyers and have access to specific buyer functionalities.
+3. **Supplier**: Users who have registered as suppliers and have access to supplier-specific functionalities.
+4. **Admin**: Users with administrative privileges, granting them access to manage users, roles, and other administrative tasks.
 
-- **User Roles**: Users can have different roles such as guest, buyer, supplier, or admin.
-- **Access Management**: Each user role has specific permissions and access to certain APIs.
-- **JWT Authentication**: Secure authentication using JSON Web Tokens for accessing protected APIs.
-- **MongoDB Integration**: Data persistence for user management using MongoDB.
-- **Redis Caching**: Utilizes Redis for caching user sessions and authentication tokens.
+## API Documentation
 
-## Usage
+For detailed information on the APIs provided by the User Microservice, please refer to the [API documentation](https://github.com/MicroMasters/user-service).
 
-To use the **user-service** microservice, follow these steps:
+## Getting Started
+
+To get started with using the User Microservice project, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/user-service.git
+   ```
+   git clone https://github.com/MicroMasters/user-service.git
    ```
 
 2. Install dependencies:
 
-   ```bash
-   go mod tidy
+   ```
+   cd user-service
+   go mod download
    ```
 
 3. Set up MongoDB and Redis:
 
-   - Ensure MongoDB and Redis are installed and running.
-   - Configure the connection details in the project's configuration files.
+   Ensure you have MongoDB and Redis installed and running on your system. Update the configuration file (`config.yaml`) with your MongoDB and Redis connection details.
 
-4. Build and run the application:
+4. Build and run the project:
 
-   ```bash
+   ```
    go build
    ./user-service
    ```
 
-5. Access the APIs based on user roles using JWT for authentication.
+5. Access the APIs:
 
-## API Documentation
+   Once the service is up and running, you can access the APIs using the provided endpoints as documented in the [API documentation](https://github.com/MicroMasters/user-service).
 
-The API documentation for the **user-service** microservice can be found [here](#) (https://github.com/MicroMasters/user-service).
+## Contributing
+
+We welcome contributions to the User Microservice project! Feel free to fork the repository, make changes, and submit pull requests.
+
+## Issues
+
+If you encounter any issues or have suggestions for improvements, please open an issue on the [issue tracker](https://github.com/MicroMasters/user-service/issues).
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
+
+---
+Developed by [MicroMasters](https://github.com/MicroMasters)
+
+## 🌱 Contributors </br>
+
+<a href="https://github.com/MicroMasters/user-service/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MicroMasters/user-service" />
+</a>
