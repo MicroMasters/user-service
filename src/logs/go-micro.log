@@ -1,0 +1,97 @@
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T14:12:47+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T14:14:35+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T14:16:49+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T14:17:19+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T14:28:36+05:30"}
+{"ID":"3ce7c383-7861-4f5c-b579-2730071737da","level":"info","msg":"Driver Get All Function Called.","time":"2024-04-01T14:29:01+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T14:36:07+05:30"}
+{"ID":"a2155e3d-0d1c-4da8-8cbd-bb48ee7411b3","level":"info","msg":"User Get All Function Called.","time":"2024-04-01T14:36:32+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:48:16+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:48:16+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:48:16+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:48:16+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:54:24+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:54:24+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:55:07+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:55:07+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:55:44+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:55:44+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:56:09+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:56:09+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:58:28+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:58:28+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T14:58:28+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T14:58:28+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:02:32+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:02:32+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T15:02:32+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:09:33+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:09:33+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T15:09:33+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:10:24+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:10:24+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T15:10:24+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:10:50+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:10:50+05:30"}
+{"level":"info","msg":"Connected to Database!","time":"2024-04-01T15:10:50+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:13:50+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:13:50+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:13:50+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:15:10+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:15:10+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:15:10+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:35:38+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:35:38+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:35:38+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:45:55+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:45:55+05:30"}
+{"level":"info","msg":"Connecting to Redis Instance : localhost:6379","time":"2024-04-01T15:45:55+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:48:44+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:48:44+05:30"}
+{"level":"info","msg":"Connecting to Redis Instance : localhost:6379","time":"2024-04-01T15:48:44+05:30"}
+{"level":"fatal","msg":"dial tcp [::1]:6379: connect: connection refused","time":"2024-04-01T15:48:44+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:270179","time":"2024-04-01T15:49:51+05:30"}
+{"level":"fatal","msg":"error parsing uri: invalid host \"\": port must be in the range [1, 65535]","time":"2024-04-01T15:49:51+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:270179","time":"2024-04-01T15:51:27+05:30"}
+{"level":"fatal","msg":"error parsing uri: invalid host \"\": port must be in the range [1, 65535]","time":"2024-04-01T15:51:27+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:52:47+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:52:47+05:30"}
+{"level":"info","msg":"Connecting to Redis Instance : localhost:6379","time":"2024-04-01T15:52:47+05:30"}
+{"level":"fatal","msg":"dial tcp [::1]:6379: connect: connection refused","time":"2024-04-01T15:52:47+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:53:25+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:53:25+05:30"}
+{"level":"info","msg":"Connecting to Redis Instance : localhost:6379","time":"2024-04-01T15:53:25+05:30"}
+{"level":"fatal","msg":"dial tcp [::1]:6379: connect: connection refused","time":"2024-04-01T15:53:25+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:55:32+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:55:32+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:55:32+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:57:00+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:57:00+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:57:00+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:57:58+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:57:58+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:57:58+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T15:59:35+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T15:59:35+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T15:59:35+05:30"}
+{"ID":"3a61c69d-33c2-4be8-933a-e12909db5601","level":"info","msg":"User Get All Function Called.","time":"2024-04-01T15:59:39+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T16:00:16+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T16:00:16+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T16:00:16+05:30"}
+{"ID":"12d07d3d-fe1f-43b4-bfaa-6acacff363fe","level":"info","msg":"User Get All Function Called.","time":"2024-04-01T16:00:22+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T16:02:20+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T16:02:20+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T16:02:20+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T16:03:53+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T16:03:53+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T16:03:53+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T16:17:23+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T16:17:23+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T16:17:23+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T16:18:18+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T16:18:18+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T16:18:18+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T16:19:24+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T16:19:24+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T16:19:24+05:30"}
+{"ID":"42549096-b538-4063-9731-41c16c604ee3","level":"info","msg":"User Get All Function Called.","time":"2024-04-01T16:19:35+05:30"}
