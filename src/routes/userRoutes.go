@@ -9,7 +9,7 @@ import (
 func UserRoutes(router *gin.Engine) {
 	router.GET("/users", controllers.GetAllUsers)
 	// router.GET("/users/:id", controllers.GetUserByID)
-	router.POST("/users", controllers.CreateMongoUser)
+	router.POST("/users/create", controllers.CreateMongoUser)
 	// router.PUT("/users/:id", controllers.UpdateUser)
 	// router.DELETE("/users/:id", controllers.DeleteUser)
 }
