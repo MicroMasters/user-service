@@ -95,3 +95,7 @@
 {"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T16:19:24+05:30"}
 {"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T16:19:24+05:30"}
 {"ID":"42549096-b538-4063-9731-41c16c604ee3","level":"info","msg":"User Get All Function Called.","time":"2024-04-01T16:19:35+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-01T22:01:38+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-01T22:01:38+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-01T22:01:38+05:30"}
+{"ID":"eb85f072-5300-489f-a6d2-400a5890ebec","level":"info","msg":"User Get All Function Called.","time":"2024-04-01T22:01:59+05:30"}
