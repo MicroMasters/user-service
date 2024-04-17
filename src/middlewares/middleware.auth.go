@@ -15,6 +15,8 @@ import (
 type AuthMiddleware struct {
 	jwtService jwt.JWTService
 	isAdmin    bool
+	isBuyer    bool
+	isSupplier bool
 }
 
 func NewAuthMiddleware(jwtService jwt.JWTService, isAdmin bool) gin.HandlerFunc {
@@ -53,6 +55,14 @@ func (m *AuthMiddleware) Handle(ctx *gin.Context) {
 	}
 
 	if user.IsAdmin != m.isAdmin && !user.IsAdmin {
+		c.JSON(helpers.GetHTTPError("You don't have access for this action", http.StatusUnauthorized, c.FullPath()))
+		log.WithFields(logrus.Fields{"ID": c.MustGet("LogID")}).Error("You don't have access for this action")
+		return
+	} else if user.IsBuyer != m.isBuyer && !user.isBuyer {
+		c.JSON(helpers.GetHTTPError("You don't have access for this action", http.StatusUnauthorized, c.FullPath()))
+		log.WithFields(logrus.Fields{"ID": c.MustGet("LogID")}).Error("You don't have access for this action")
+		return
+	} else if user.isSupplier != m.isSupplier && !user.isSupplier {
 		c.JSON(helpers.GetHTTPError("You don't have access for this action", http.StatusUnauthorized, c.FullPath()))
 		log.WithFields(logrus.Fields{"ID": c.MustGet("LogID")}).Error("You don't have access for this action")
 		return
