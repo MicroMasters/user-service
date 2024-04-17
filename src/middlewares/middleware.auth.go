@@ -73,9 +73,6 @@ func (m *AuthMiddleware) Handle(ctx *gin.Context) {
 		ctx.JSON(helpers.GetHTTPError("You don't have access for this action as a supplier", http.StatusUnauthorized, ctx.FullPath()))
 		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action as a supplier")
 		return
-	} else {
-		ctx.JSON(helpers.GetHTTPError("You don't have access for this action", http.StatusUnauthorized, ctx.FullPath()))
-		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action")
 	}
 
 	ctx.Set(constants.CtxAuthenticatedUserKey, user)

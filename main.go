@@ -56,8 +56,14 @@ func main() {
 			"message": "Welcome to User Service",
 		})
 	})
+	admin := api.Group("admin")
+	routes.CustomerRoutes(admin)
+
+	buyer := api.Group("buyer")
+	routes.CustomerRoutes(buyer)
+
 	supplier := api.Group("supplier")
-	routes.UserRoutes(supplier)
+	routes.SupplierRoutes(supplier)
 
 	err = router.Run(":" + port)
 

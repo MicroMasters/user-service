@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func UserRoutes(router *gin.RouterGroup) {
+func SupplierRoutes(router *gin.RouterGroup) {
 	log := helpers.GetLogger()
 
 	router.POST("/users/create", controllers.CreateMongoUser)
@@ -37,9 +37,9 @@ func UserRoutes(router *gin.RouterGroup) {
 	// jwt service
 	jwtService := jwt.NewJWTService(jwtSecret, jwtIssuer, jwtExpiry)
 
-	router.Use(middlewares.NewAuthMiddleware(jwtService, true, false, true))
+	router.Use(middlewares.NewAuthMiddleware(jwtService, false, false, true))
 	{
-		router.GET("/users", controllers.GetAllUsers)
+		router.GET("/users/", controllers.GetAllUsers)
 		router.GET("/users/:id", controllers.GetUserByID)
 	}
 }

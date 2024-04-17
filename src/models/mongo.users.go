@@ -15,7 +15,7 @@ type MongoUsersRepository struct {
 	Role          string    `json:"role" bson:"role" default:"geust" validate:"required"`
 	Status        string    `json:"status" bson:"status" default:"offline" validate:"required"`
 	Token         string    `json:"token" bson:"token" default:"" required:"true"`
-	ResetToken    string    `json:"reset_token" bson:"reset_token" default:"" required:"false"`
+	RefreshToken  string    `json:"refresh_token" bson:"refresh_token" default:"" required:"false"`
 	CreatedTime   time.Time `json:"created_time" bson:"created_time"`
 	UpdatedTime   time.Time `json:"updated_time" bson:"updated_time"`
 }

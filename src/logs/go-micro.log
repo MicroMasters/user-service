@@ -394,3 +394,53 @@
 {"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T18:14:39+05:30"}
 {"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T18:16:06+05:30"}
 {"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T18:16:06+05:30"}
+{"ID":"2c7a7ebd-eef8-42ee-8095-13e859ae44b5","level":"info","msg":"User Create Function Called.","time":"2024-04-17T18:38:16+05:30"}
+{"ID":"2c7a7ebd-eef8-42ee-8095-13e859ae44b5","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T18:38:16+05:30"}
+{"ID":"26166821-7e12-449e-9713-7d7435bfd00e","level":"info","msg":"User Create Function Called.","time":"2024-04-17T18:38:53+05:30"}
+{"ID":"26166821-7e12-449e-9713-7d7435bfd00e","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T18:38:53+05:30"}
+{"ID":"00ca29ef-6080-40bf-af94-238d76e15ec0","level":"info","msg":"User Create Function Called.","time":"2024-04-17T18:39:23+05:30"}
+{"ID":"00ca29ef-6080-40bf-af94-238d76e15ec0","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T18:39:23+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T18:46:23+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T18:46:23+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T18:48:27+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T18:48:27+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T18:57:08+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T18:57:08+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:03:28+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:03:28+05:30"}
+{"ID":"0e1aa9cb-bf5a-4bab-87c2-02b0e069d583","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:03:40+05:30"}
+{"ID":"0e1aa9cb-bf5a-4bab-87c2-02b0e069d583","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:03:40+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:04:37+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:04:37+05:30"}
+{"ID":"efe8d806-cd0d-4352-9bd0-03a67c5a2b06","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:04:44+05:30"}
+{"ID":"efe8d806-cd0d-4352-9bd0-03a67c5a2b06","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:04:44+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:08:46+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:08:46+05:30"}
+{"ID":"2e7ed46b-b7f6-4086-a923-006205976e71","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:08:55+05:30"}
+{"ID":"2e7ed46b-b7f6-4086-a923-006205976e71","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:08:55+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:12:05+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:12:05+05:30"}
+{"ID":"3ec1d10d-13b5-4048-b7c9-8722669f3327","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:12:15+05:30"}
+{"ID":"3ec1d10d-13b5-4048-b7c9-8722669f3327","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:12:15+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:14:31+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:14:31+05:30"}
+{"ID":"7ff95350-7b6d-491f-a533-1d31db121982","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:14:37+05:30"}
+{"ID":"7ff95350-7b6d-491f-a533-1d31db121982","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:14:37+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:15:44+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:15:44+05:30"}
+{"ID":"56b6cece-699e-477a-b2d7-1155cc3b90d2","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:15:51+05:30"}
+{"ID":"56b6cece-699e-477a-b2d7-1155cc3b90d2","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:15:51+05:30"}
+{"ID":"642c9b06-8b98-419d-9b77-feb7d1bc93da","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:17:29+05:30"}
+{"ID":"642c9b06-8b98-419d-9b77-feb7d1bc93da","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:17:29+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:22:20+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:22:20+05:30"}
+{"ID":"a1e7401e-a07d-4cf1-b755-2588033f22bb","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:22:27+05:30"}
+{"ID":"a1e7401e-a07d-4cf1-b755-2588033f22bb","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:22:27+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:23:19+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:23:19+05:30"}
+{"ID":"be6ce5ce-f365-4d53-8cb9-ecace90171e9","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:23:24+05:30"}
+{"ID":"be6ce5ce-f365-4d53-8cb9-ecace90171e9","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:23:24+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T19:25:43+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T19:25:43+05:30"}
+{"ID":"d4d27155-8873-4645-a77e-08fb0fe990a6","level":"info","msg":"User Create Function Called.","time":"2024-04-17T19:27:26+05:30"}
+{"ID":"d4d27155-8873-4645-a77e-08fb0fe990a6","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T19:27:26+05:30"}

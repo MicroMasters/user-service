@@ -22,10 +22,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-type userUsecase struct {
-	jwtService jwt.JWTService
-}
-
 func CreateMongoUser(c *gin.Context) {
 	log := helpers.GetLogger()
 
@@ -105,11 +101,11 @@ func CreateMongoUser(c *gin.Context) {
 
 	switch mongoUsersRepository.Role {
 	case "admin":
-		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, true, true, true, mongoUsersRepository.Email, mongoUsersRepository.Password)
+		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, true, true, true, mongoUsersRepository.Email)
 	case "buyer":
-		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, false, true, false, mongoUsersRepository.Email, mongoUsersRepository.Password)
+		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, false, true, false, mongoUsersRepository.Email)
 	case "supplier":
-		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, false, false, true, mongoUsersRepository.Email, mongoUsersRepository.Password)
+		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, false, false, true, mongoUsersRepository.Email)
 	}
 
 	if err != nil {
@@ -118,7 +114,7 @@ func CreateMongoUser(c *gin.Context) {
 	} else {
 		fmt.Println("Generated token:", token)
 		mongoUsersRepository.Token = token
-		mongoUsersRepository.ResetToken = token
+		mongoUsersRepository.RefreshToken = token
 	}
 
 	// Insert Data
@@ -268,3 +264,5 @@ func GetUserByID(c *gin.Context) {
 	c.JSON(http.StatusCreated, userBackendUser)
 	// log.WithFields(logrus.Fields{"ID": c.MustGet("LogID")}).Info("All Backend User details by ID responsed.")
 }
+
+
