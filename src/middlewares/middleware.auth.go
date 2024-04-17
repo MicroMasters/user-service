@@ -1,6 +1,7 @@
 package middlewares
 
 import (
+	"fmt"
 	"net/http"
 	"strings"
 
@@ -51,24 +52,30 @@ func (m *AuthMiddleware) Handle(ctx *gin.Context) {
 	}
 
 	user, err := m.jwtService.ParseToken(headerParts[1])
+	// print user
+	fmt.Println(user)
+	fmt.Println(m.isAdmin, m.isBuyer, m.isSupplier)
 	if err != nil {
 		ctx.JSON(helpers.GetHTTPError("Invalid Token", http.StatusUnauthorized, ctx.FullPath()))
 		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("Invalid Token")
 		return
 	}
 
-	if user.IsAdmin != m.isAdmin && !user.IsAdmin {
-		ctx.JSON(helpers.GetHTTPError("You don't have access for this action", http.StatusUnauthorized, ctx.FullPath()))
-		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action")
+	if user.IsAdmin != m.isAdmin && !user.IsAdmin && m.isBuyer && !user.IsBuyer && m.isSupplier && !user.IsSupplier {
+		ctx.JSON(helpers.GetHTTPError("You don't have access for this action as a admin", http.StatusUnauthorized, ctx.FullPath()))
+		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action as a admin")
 		return
 	} else if user.IsBuyer != m.isBuyer && !user.IsBuyer {
-		ctx.JSON(helpers.GetHTTPError("You don't have access for this action", http.StatusUnauthorized, ctx.FullPath()))
-		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action")
+		ctx.JSON(helpers.GetHTTPError("You don't have access for this action as a buyer", http.StatusUnauthorized, ctx.FullPath()))
+		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action as a buyer")
 		return
 	} else if user.IsSupplier != m.isSupplier && !user.IsSupplier {
+		ctx.JSON(helpers.GetHTTPError("You don't have access for this action as a supplier", http.StatusUnauthorized, ctx.FullPath()))
+		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action as a supplier")
+		return
+	} else {
 		ctx.JSON(helpers.GetHTTPError("You don't have access for this action", http.StatusUnauthorized, ctx.FullPath()))
 		log.WithFields(logrus.Fields{"ID": ctx.MustGet("LogID")}).Error("You don't have access for this action")
-		return
 	}
 
 	ctx.Set(constants.CtxAuthenticatedUserKey, user)

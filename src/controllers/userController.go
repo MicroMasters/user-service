@@ -7,9 +7,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"os"
 	"time"
 	"user-service/src/connection/db"
 	"user-service/src/helpers"
+	"user-service/src/jwt"
 	"user-service/src/models"
 
 	"github.com/gin-gonic/gin"
@@ -19,6 +21,10 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
+
+type userUsecase struct {
+	jwtService jwt.JWTService
+}
 
 func CreateMongoUser(c *gin.Context) {
 	log := helpers.GetLogger()
@@ -66,8 +72,57 @@ func CreateMongoUser(c *gin.Context) {
 	// print mongoUsersRepository
 	fmt.Println(mongoUsersRepository)
 
+	JWT_SECRET, err := helpers.GetEnvStringVal("JWT_SECRET")
+
+	if err != nil {
+		log.Error("Failed to load environment variable : JWT_SECRET")
+		println("Failed to load environment variable : JWT_SECRET " + err.Error())
+		log.Debug(err.Error())
+		os.Exit(1)
+	}
+
+	JWT_ISSUER, err := helpers.GetEnvStringVal("JWT_ISSUER")
+
+	if err != nil {
+		log.Error("Failed to load environment variable : JWT_ISSUER")
+		println("Failed to load environment variable : JWT_ISSUER " + err.Error())
+		log.Debug(err.Error())
+		os.Exit(1)
+	}
+
+	JWT_EXPIRED, err := helpers.GetEnvIntVal("JWT_EXPIRED")
+
+	if err != nil {
+		log.Error("Failed to load environment variable : JWT_EXPIRED")
+		println("Failed to load environment variable : JWT_EXPIRED " + err.Error())
+		log.Debug(err.Error())
+		os.Exit(1)
+	}
+
+	jwtService := jwt.NewJWTService(JWT_SECRET, JWT_ISSUER, JWT_EXPIRED)
+
+	var token string
+
+	switch mongoUsersRepository.Role {
+	case "admin":
+		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, true, true, true, mongoUsersRepository.Email, mongoUsersRepository.Password)
+	case "buyer":
+		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, false, true, false, mongoUsersRepository.Email, mongoUsersRepository.Password)
+	case "supplier":
+		token, err = jwtService.GenerateToken(mongoUsersRepository.ID, false, false, true, mongoUsersRepository.Email, mongoUsersRepository.Password)
+	}
+
+	if err != nil {
+		// Handle token generation error
+		fmt.Println("Error generating token:", err)
+	} else {
+		fmt.Println("Generated token:", token)
+		mongoUsersRepository.Token = token
+		mongoUsersRepository.ResetToken = token
+	}
+
 	// Insert Data
-	_, err := collection.InsertOne(ctx, mongoUsersRepository)
+	_, err = collection.InsertOne(ctx, mongoUsersRepository)
 
 	// print err
 	fmt.Println(err)

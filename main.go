@@ -37,28 +37,6 @@ func main() {
 		port = "8090"
 	}
 
-	//initialize jwt
-	// jwtSecret, err := helpers.GetEnvStringVal("JWT_SECRET")
-	// if err != nil {
-	// 	log.Error("JWT_SECRET not found in environment variables")
-	// 	os.Exit(1)
-	// }
-
-	// jwtIssuer, err := helpers.GetEnvStringVal("JWT_ISSUER")
-	// if err != nil {
-	// 	log.Error("JWT_ISSUER not found in environment variables")
-	// 	os.Exit(1)
-	// }
-
-	// jwtExpiry, err := helpers.GetEnvIntVal("JWT_EXPIRED")
-	// if err != nil {
-	// 	log.Error("JWT_EXPIRED not found in environment variables")
-	// 	os.Exit(1)
-	// }
-
-	// jwt service
-	// jwtService := jwt.NewJWTService(jwtSecret, jwtIssuer, jwtExpiry)
-
 	//initialize database
 	db.GetClientConnection()
 	// rediss.GetRedisClientConnection()
@@ -79,7 +57,6 @@ func main() {
 		})
 	})
 	supplier := api.Group("supplier")
-	// supplier.Use(middlewares.NewAuthMiddleware(jwtService, false, false, true))
 	routes.UserRoutes(supplier)
 
 	err = router.Run(":" + port)
