@@ -50,10 +50,11 @@ func RedisInstance() *redis.Client {
 	return rdb
 }
 
+var redisClient *redis.Client = RedisInstance()
 var ctx = context.Background()
 
 func GetRedisClientConnection() *redis.Client {
-	return RedisInstance()
+	return redisClient
 }
 
 func Set(key string, value string) {

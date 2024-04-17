@@ -17,28 +17,29 @@ func InitializeValidator() {
 }
 
 func StructValidator(theStruct interface{}) error {
+	InitializeValidator()
 	err := validate.Struct(theStruct)
 	return err
 }
 
 func ValidatePhone(fld validator.FieldLevel) bool {
-    // Log the field value for debugging
-    log.Printf("Field Value: %s", fld.Field().String())
+	// Log the field value for debugging
+	log.Printf("Field Value: %s", fld.Field().String())
 
-    contplus := strings.Contains(fld.Field().String(), "+")
-    if !contplus {
-        return false
-    }
+	contplus := strings.Contains(fld.Field().String(), "+")
+	if !contplus {
+		return false
+	}
 
-    remplus := strings.Trim(fld.Field().String(), "+")
-    
-    // Log the trimmed value for debugging
-    log.Printf("Trimmed Value: %s", remplus)
+	remplus := strings.Trim(fld.Field().String(), "+")
 
-    asd := phonenumber.GetISO3166ByNumber(remplus, true)
+	// Log the trimmed value for debugging
+	log.Printf("Trimmed Value: %s", remplus)
 
-    // Log the result for debugging
-    log.Printf("ISO3166 Result: %+v", asd)
+	asd := phonenumber.GetISO3166ByNumber(remplus, true)
 
-    return asd.CountryName != ""
+	// Log the result for debugging
+	log.Printf("ISO3166 Result: %+v", asd)
+
+	return asd.CountryName != ""
 }

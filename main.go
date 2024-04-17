@@ -49,8 +49,15 @@ func main() {
 	router.Use(gin.Recovery())
 
 	//initialize routes
-	// routes.CorporateUserRoutes(router)ß
-	routes.UserRoutes(router)
+	// routes.CorporateUserRoutes(router)
+	api := router.Group("api")
+	api.GET("/", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "Welcome to User Service",
+		})
+	})
+	supplier := api.Group("supplier")
+	routes.UserRoutes(supplier)
 
 	err = router.Run(":" + port)
 
