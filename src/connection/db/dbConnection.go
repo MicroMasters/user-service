@@ -53,8 +53,10 @@ func DBinstance() *mongo.Client {
 	return client
 }
 
+var Client *mongo.Client = DBinstance()
+
 func GetClientConnection() *mongo.Client {
-	return DBinstance()
+	return Client
 }
 
 // OpenCollection is a  function makes a connection with a collection in the database

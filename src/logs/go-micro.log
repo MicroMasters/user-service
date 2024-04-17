@@ -108,3 +108,231 @@
 {"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-05T12:00:41+05:30"}
 {"ID":"9a1c4dee-08a9-4dae-8e00-0b2139044291","level":"info","msg":"User Create Function Called.","time":"2024-04-05T12:00:51+05:30"}
 {"ID":"776518e1-1def-4923-bebb-ef0cb89b17b3","level":"info","msg":"User Create Function Called.","time":"2024-04-05T12:03:41+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T12:42:58+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T12:42:58+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T12:42:58+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T12:45:05+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T12:45:05+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T12:45:05+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T12:52:41+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T12:52:41+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T12:52:41+05:30"}
+{"ID":"f3a9e78a-f7ec-4209-8ea9-5852660b3285","level":"info","msg":"User Create Function Called.","time":"2024-04-17T12:52:48+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:07:19+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T13:07:19+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:07:19+05:30"}
+{"ID":"e2aea6d3-a389-4b2b-b004-4bb4e49af6d0","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:07:27+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:09:09+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:09:09+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:09:09+05:30"}
+{"ID":"b5d59e12-732b-4cd0-be10-d5c8796b4da1","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:09:19+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:12:11+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:12:11+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:12:11+05:30"}
+{"ID":"a275a53a-adfe-4321-9f96-f76e14f1395a","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:12:15+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:14:22+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:14:22+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:14:22+05:30"}
+{"ID":"744ef7d3-7afd-4c88-993c-8f2ff9558582","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:14:25+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:15:05+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:15:05+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:15:05+05:30"}
+{"ID":"caa5da82-dfa9-4acf-89b8-ea19aeb00286","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:15:10+05:30"}
+{"ID":"14e673e1-7462-44c0-b969-be6426a9e00c","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:15:32+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:15:46+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:15:46+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:15:46+05:30"}
+{"ID":"682b5523-3ee5-4313-acb0-6c38ef9b7d3c","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:15:49+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:17:14+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:17:14+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:17:14+05:30"}
+{"ID":"8f0c4d24-e904-4359-b8f3-a7ac5e3a8c14","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:17:18+05:30"}
+{"ID":"ca9fe690-b2e6-4aa8-b11d-f817c3778d61","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:19:00+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:19:46+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:19:46+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:19:46+05:30"}
+{"ID":"46de42cf-92c2-47d4-a9c0-824235e3d03d","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:19:53+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:21:27+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:21:27+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:21:27+05:30"}
+{"ID":"1370d4d8-d025-4967-b7f7-3b14b4047310","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:21:38+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:22:27+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:22:27+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:22:27+05:30"}
+{"ID":"5a440695-7022-40d2-a91b-01cb62564393","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:22:31+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:23:21+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:23:21+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:23:21+05:30"}
+{"ID":"293e4dee-d894-4c1a-bbbf-a30dfa082d66","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:23:27+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:23:27+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:23:27+05:30"}
+{"ID":"293e4dee-d894-4c1a-bbbf-a30dfa082d66","level":"error","msg":"illegal base64 data at input byte 8","time":"2024-04-17T13:23:27+05:30"}
+{"ID":"25579bd0-67c0-40e3-aee6-24444668dd6d","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:24:54+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:24:54+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:24:54+05:30"}
+{"ID":"25579bd0-67c0-40e3-aee6-24444668dd6d","level":"error","msg":"illegal base64 data at input byte 0","time":"2024-04-17T13:24:54+05:30"}
+{"ID":"a5508923-0e49-4af0-9ce5-974742f0fdbd","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:25:07+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:25:07+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:25:07+05:30"}
+{"ID":"a5508923-0e49-4af0-9ce5-974742f0fdbd","level":"error","msg":"illegal base64 data at input byte 0","time":"2024-04-17T13:25:07+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:25:18+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:25:18+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:25:18+05:30"}
+{"ID":"fc7419a4-9679-4753-8ed4-c1a121e5377d","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:25:23+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:28:55+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:28:55+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:28:55+05:30"}
+{"ID":"d5b6035d-5da5-4f21-8f44-565aadc0bcd1","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:29:23+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:33:02+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:33:02+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:33:02+05:30"}
+{"ID":"f981eb69-33e2-40eb-b9b1-48fe6b202bb4","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:33:07+05:30"}
+{"ID":"f981eb69-33e2-40eb-b9b1-48fe6b202bb4","level":"debug","msg":"Invalid request parameters.","time":"2024-04-17T13:33:07+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:36:05+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:36:05+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:36:05+05:30"}
+{"ID":"8877603d-4e50-4964-8daf-2217fa9e6553","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:36:10+05:30"}
+{"ID":"8877603d-4e50-4964-8daf-2217fa9e6553","level":"debug","msg":"Invalid request parameters.","time":"2024-04-17T13:36:10+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T13:41:39+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T13:41:39+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T13:41:39+05:30"}
+{"ID":"0231516e-c375-4875-a2c1-1fa368ff69e4","level":"info","msg":"User Create Function Called.","time":"2024-04-17T13:42:07+05:30"}
+{"ID":"0231516e-c375-4875-a2c1-1fa368ff69e4","level":"debug","msg":"Invalid request parameters.","time":"2024-04-17T13:42:07+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:08:52+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:08:52+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:08:53+05:30"}
+{"ID":"edc918a4-effe-4f3d-8815-dfe6e50c4a51","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:09:06+05:30"}
+{"ID":"edc918a4-effe-4f3d-8815-dfe6e50c4a51","level":"debug","msg":"Invalid request parameters.","time":"2024-04-17T14:09:06+05:30"}
+{"ID":"46745e4b-4e9c-4428-b119-d197374dc016","level":"info","msg":"User Get All Function Called.","time":"2024-04-17T14:09:51+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:11:57+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:11:57+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:11:57+05:30"}
+{"ID":"81cdc42c-14db-4052-9f15-34c48c4261e8","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:12:22+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:12:22+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:12:22+05:30"}
+{"ID":"81cdc42c-14db-4052-9f15-34c48c4261e8","level":"error","msg":"illegal base64 data at input byte 0","time":"2024-04-17T14:12:22+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:13:12+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:13:12+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:13:12+05:30"}
+{"ID":"8e1ad7a8-da24-43c5-bbdd-ef601596c79f","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:13:19+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:24:11+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:24:11+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:24:12+05:30"}
+{"ID":"b21fab28-306a-47c9-aa59-4d5bf1354e64","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:24:22+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:32:22+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:32:22+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:32:22+05:30"}
+{"ID":"fcf1bc94-77d4-409e-b8fb-57b02e4f07cd","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:32:41+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:36:36+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:36:36+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:36:36+05:30"}
+{"ID":"7ab0e345-527a-4e08-8134-10422333db87","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:36:49+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:36:49+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:36:49+05:30"}
+{"ID":"7ab0e345-527a-4e08-8134-10422333db87","level":"error","msg":"illegal base64 data at input byte 0","time":"2024-04-17T14:36:49+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:37:58+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:37:58+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:37:58+05:30"}
+{"ID":"6ecd9d0e-fcf2-4137-b61d-85fa0e10383e","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:38:13+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:38:13+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:38:13+05:30"}
+{"ID":"6ecd9d0e-fcf2-4137-b61d-85fa0e10383e","level":"error","msg":"illegal base64 data at input byte 0","time":"2024-04-17T14:38:13+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:44:20+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:44:20+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:44:20+05:30"}
+{"ID":"a05d6524-2ee9-4d0e-9691-a3a67b2327da","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:44:36+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:44:36+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:44:36+05:30"}
+{"ID":"a05d6524-2ee9-4d0e-9691-a3a67b2327da","level":"error","msg":"server selection error: context deadline exceeded, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: cluster0-shard-00-01.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-02.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-00.rkocw.mongodb.net:27017, Type: Unknown }, ] }","time":"2024-04-17T14:44:36+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:46:21+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:46:21+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:46:21+05:30"}
+{"ID":"cbc9bac9-032c-4684-a08f-be0702d253aa","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:46:46+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:46:46+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:46:46+05:30"}
+{"ID":"cbc9bac9-032c-4684-a08f-be0702d253aa","level":"error","msg":"server selection error: context deadline exceeded, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: cluster0-shard-00-01.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-02.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-00.rkocw.mongodb.net:27017, Type: Unknown }, ] }","time":"2024-04-17T14:46:46+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:47:13+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:47:13+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:47:13+05:30"}
+{"ID":"a2885892-444c-4892-b070-c3a5c1c5192a","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:47:20+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:47:20+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:47:20+05:30"}
+{"ID":"a2885892-444c-4892-b070-c3a5c1c5192a","level":"error","msg":"server selection error: context deadline exceeded, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: cluster0-shard-00-00.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-01.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-02.rkocw.mongodb.net:27017, Type: Unknown }, ] }","time":"2024-04-17T14:47:20+05:30"}
+{"level":"error","msg":"Failed to load environment variable : API_CONFIG_REQUEST_TIMEOUT","time":"2024-04-17T14:51:27+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:51:27+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:51:27+05:30"}
+{"ID":"f7d127f5-1e2e-44ae-a57d-dd37ea50410f","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:51:32+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:51:32+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:51:32+05:30"}
+{"ID":"f7d127f5-1e2e-44ae-a57d-dd37ea50410f","level":"error","msg":"server selection error: context deadline exceeded, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: cluster0-shard-00-01.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-02.rkocw.mongodb.net:27017, Type: Unknown }, { Addr: cluster0-shard-00-00.rkocw.mongodb.net:27017, Type: Unknown }, ] }","time":"2024-04-17T14:51:32+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T14:53:16+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T14:53:16+05:30"}
+{"ID":"99271d96-5d08-4454-8642-442f64403ba3","level":"info","msg":"User Create Function Called.","time":"2024-04-17T14:53:32+05:30"}
+{"ID":"99271d96-5d08-4454-8642-442f64403ba3","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [Lift.MongoUsersRepository]","time":"2024-04-17T14:53:33+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:00:14+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:00:14+05:30"}
+{"ID":"0f347326-db36-49b8-b243-73db543f2ff1","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:00:22+05:30"}
+{"ID":"0f347326-db36-49b8-b243-73db543f2ff1","level":"error","msg":"illegal base64 data at input byte 0","time":"2024-04-17T15:00:22+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:01:50+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:01:50+05:30"}
+{"ID":"50030ba9-b718-4891-b11a-786dbd69b1b3","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:01:58+05:30"}
+{"ID":"50030ba9-b718-4891-b11a-786dbd69b1b3","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [Lift.MongoUsersRepository]","time":"2024-04-17T15:01:59+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:15:29+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:15:29+05:30"}
+{"ID":"503c988d-1b14-4d56-9c5d-c627325694aa","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:15:37+05:30"}
+{"ID":"503c988d-1b14-4d56-9c5d-c627325694aa","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [Lift.MongoUsersRepository]","time":"2024-04-17T15:15:38+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:16:41+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:16:41+05:30"}
+{"ID":"486d7fc7-a98b-46cd-bbbf-393405eaab8a","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:16:48+05:30"}
+{"ID":"486d7fc7-a98b-46cd-bbbf-393405eaab8a","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [Lift.MongoUsersRepository]","time":"2024-04-17T15:16:50+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:19:05+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:19:05+05:30"}
+{"ID":"138d2861-9a8b-497e-8d01-ed7de62111d7","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:19:14+05:30"}
+{"ID":"138d2861-9a8b-497e-8d01-ed7de62111d7","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [Lift.MongoUsersRepository]","time":"2024-04-17T15:19:16+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:23:05+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:23:05+05:30"}
+{"ID":"4630bbce-9858-4564-8f34-246c1ebd3312","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:23:22+05:30"}
+{"ID":"4630bbce-9858-4564-8f34-246c1ebd3312","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [userService.MongoUsersRepository]","time":"2024-04-17T15:23:24+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:28:01+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:28:01+05:30"}
+{"ID":"9781f03a-60a2-487b-b313-70a938a21c47","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:28:09+05:30"}
+{"ID":"9781f03a-60a2-487b-b313-70a938a21c47","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [userService.MongoUsersRepository]","time":"2024-04-17T15:28:10+05:30"}
+{"ID":"1e9c670b-31e6-4491-a921-53f4d4317b04","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:28:40+05:30"}
+{"ID":"1e9c670b-31e6-4491-a921-53f4d4317b04","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [userService.MongoUsersRepository]","time":"2024-04-17T15:28:40+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:35:30+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:35:30+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb+srv://1234:m1234@cluster0.rkocw.mongodb.net/","time":"2024-04-17T15:35:54+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:35:54+05:30"}
+{"ID":"73e4554f-71f0-4058-bccf-fa55cf713b30","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:36:04+05:30"}
+{"ID":"73e4554f-71f0-4058-bccf-fa55cf713b30","level":"error","msg":"(AtlasError) user is not allowed to do action [insert] on [userService.MongoUsersRepository]","time":"2024-04-17T15:36:05+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T15:36:40+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:36:40+05:30"}
+{"ID":"991af903-6369-478c-bc85-5e0c41c45d4b","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:36:46+05:30"}
+{"ID":"991af903-6369-478c-bc85-5e0c41c45d4b","level":"error","msg":"server selection error: context deadline exceeded, current topology: { Type: Unknown, Servers: [{ Addr: localhost:27017, Type: Unknown, Last error: dial tcp [::1]:27017: connect: connection refused }, ] }","time":"2024-04-17T15:36:56+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T15:43:26+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T15:43:26+05:30"}
+{"ID":"422743ff-2204-493c-8aea-f28ce07cfe53","level":"info","msg":"User Create Function Called.","time":"2024-04-17T15:43:38+05:30"}
+{"ID":"422743ff-2204-493c-8aea-f28ce07cfe53","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T15:43:38+05:30"}
+{"ID":"a09d82e8-9183-458a-8fbb-021afa46f2ef","level":"info","msg":"User Get All Function Called.","time":"2024-04-17T16:04:46+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:05:10+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:05:10+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:07:14+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:07:14+05:30"}
+{"ID":"388d326c-9428-4d05-8a5e-7dd7ceeed15f","level":"info","msg":"User Create Function Called.","time":"2024-04-17T16:11:16+05:30"}
+{"ID":"388d326c-9428-4d05-8a5e-7dd7ceeed15f","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T16:11:16+05:30"}
+{"ID":"1289b87c-cd39-4fa3-8b86-7d60eadd0f77","level":"info","msg":"User Create Function Called.","time":"2024-04-17T16:11:21+05:30"}
+{"ID":"1289b87c-cd39-4fa3-8b86-7d60eadd0f77","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T16:11:21+05:30"}
+{"ID":"b4d241a3-74bd-4e94-b164-30ed16947645","level":"info","msg":"User Create Function Called.","time":"2024-04-17T16:11:22+05:30"}
+{"ID":"b4d241a3-74bd-4e94-b164-30ed16947645","level":"info","msg":"User Backend User Created successfully.","time":"2024-04-17T16:11:22+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:11:43+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:11:43+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:12:17+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:12:17+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:15:10+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:15:10+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:16:49+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:16:49+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:17:43+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:17:43+05:30"}
+{"level":"info","msg":"Connecting to Database via URL : mongodb://localhost:27017","time":"2024-04-17T16:18:20+05:30"}
+{"level":"info","msg":"Connected to mongoDB!!!","time":"2024-04-17T16:18:20+05:30"}

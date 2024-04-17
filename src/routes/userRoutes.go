@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func UserRoutes(router *gin.Engine) {
+func UserRoutes(router *gin.RouterGroup) {
 	router.GET("/users", controllers.GetAllUsers)
-	// router.GET("/users/:id", controllers.GetUserByID)
+	router.GET("/users/:id", controllers.GetUserByID)
 	router.POST("/users/create", controllers.CreateMongoUser)
 	// router.PUT("/users/:id", controllers.UpdateUser)
 	// router.DELETE("/users/:id", controllers.DeleteUser)

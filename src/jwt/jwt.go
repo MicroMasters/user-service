@@ -1,4 +1,3 @@
-
 package jwt
 
 import (
@@ -9,15 +8,17 @@ import (
 )
 
 type JWTService interface {
-	GenerateToken(userId string, isAdmin bool, email string, password string) (t string, err error)
+	GenerateToken(userId string, isAdmin bool, isBuyer bool, isSupplier bool, email string, password string) (string, error)
 	ParseToken(tokenString string) (claims JwtCustomClaim, err error)
 }
 
 type JwtCustomClaim struct {
-	UserID   string
-	IsAdmin  bool
-	Email    string
-	Password string
+	UserID     string
+	IsAdmin    bool
+	IsBuyer    bool
+	IsSupplier bool
+	Email      string
+	Password   string
 	driJWT.StandardClaims
 }
 
@@ -35,10 +36,12 @@ func NewJWTService(secretKey, issuer string, expired int) JWTService {
 	}
 }
 
-func (j *jwtService) GenerateToken(userID string, isAdmin bool, email string, password string) (t string, err error) {
+func (j *jwtService) GenerateToken(userID string, isAdmin bool, isBuyer bool, isSupplier bool, email string, password string) (t string, err error) {
 	claims := &JwtCustomClaim{
 		userID,
 		isAdmin,
+		isBuyer,
+		isSupplier,
 		email,
 		password,
 		driJWT.StandardClaims{
