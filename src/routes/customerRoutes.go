@@ -39,7 +39,7 @@ func CustomerRoutes(router *gin.RouterGroup) {
 
 	router.Use(middlewares.NewAuthMiddleware(jwtService, false, true, false))
 	{
-		router.GET("/users/", controllers.GetAllUsers)
+		router.GET("/users/all", controllers.GetAllUsers)
 		router.GET("/users/:id", controllers.GetUserByID)
 	}
 }

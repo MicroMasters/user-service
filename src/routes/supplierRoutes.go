@@ -39,7 +39,7 @@ func SupplierRoutes(router *gin.RouterGroup) {
 
 	router.Use(middlewares.NewAuthMiddleware(jwtService, false, false, true))
 	{
-		router.GET("/users/", controllers.GetAllUsers)
+		router.GET("/users/all", controllers.GetAllUsers)
 		router.GET("/users/:id", controllers.GetUserByID)
 	}
 }
